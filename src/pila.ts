@@ -30,7 +30,7 @@ export class Pila<T> implements LIFO<T> {
   }
 
   /**
-   * Método que devuelve el ultimo elemento insertado en la pila sin extraerlo.
+   * Método que devuelve el último elemento insertado en la pila sin extraerlo.
    * @returns El último element
    */
   pseek(): T {

@@ -1,5 +1,5 @@
 /**
- * Interfaz que establece la forma que deben tener los objetos que representen una pila.
+ * Interfaz que establece la forma que deben tener los objetos que representan una pila.
  */
 export interface LIFO<T> {
   /**

@@ -22,7 +22,7 @@ describe('Tests clase Pila con tipo de dato Number', () => {
     expect(pilaNumber.pop()).to.be.equal(10);
   });
 
-  it('Es posible obtener el ultimo elemento insertado sin extraerlo de la pila de números', () => {
+  it('Es posible obtener el último elemento insertado sin extraerlo de la pila de números', () => {
     pilaNumber.push(12);
     expect(pilaNumber.pseek()).to.be.equal(12);
   });
@@ -61,7 +61,7 @@ describe('Tests clase Pila con tipo de dato String', () => {
     expect(pilaString.size()).to.be.equal(3);
   });
 
-  it('Es posible visualizr el contenido de la pila.', () => {
+  it('Es posible visualizar el contenido de la pila.', () => {
     expect(pilaString.print()).to.be.equal('[  dsi  cya  algebra  ]');
   });
 });
